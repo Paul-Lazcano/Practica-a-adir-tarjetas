@@ -1,0 +1,14 @@
+.add-button {
+  position: fixed;
+  bottom: 3.6rem;
+  width: 32.7rem;
+  height: 4rem;
+  color: var(--base);
+  font-size: 1.4rem;
+  background-color: var(--primary);
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  box-shadow: 0 .5rem .9rem 0 #00000030;
+}

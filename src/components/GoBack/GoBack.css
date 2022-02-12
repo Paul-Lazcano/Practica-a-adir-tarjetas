@@ -1,0 +1,17 @@
+.go-back {
+  display: flex;
+  align-self: start;
+  width: 15rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.go-back__icon {
+  font-size: 3rem;
+  color: var(--base);
+  cursor: pointer;
+}
+.go-back__title {
+  font-size: 1.8rem;
+  color: var(--base);
+  font-weight: normal;
+}

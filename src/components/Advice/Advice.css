@@ -1,0 +1,10 @@
+.advice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 10.8rem;
+  width: 100%;
+}
+.advice__text {
+  font-size: 1.2rem;
+}
