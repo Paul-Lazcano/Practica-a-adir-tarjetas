@@ -8,22 +8,30 @@
   height: 19.4rem;
   padding: 1.45rem 1.2rem 15.5rem 1.6rem;
   row-gap: 1.5rem;
+  border: .1rem solid transparent;
+  transition: 300ms;
+}
+.create-card--error {
+  border: .1rem solid #fe000070;
 }
 .create-card__title {
   position: fixed;
   right: 3.2rem;
-  top: 39rem;
+  top: 35.3rem;
   font-size: 1.2rem;
   color: var(--secondary);
 }
 .create-card__card-name {
   position: fixed;
   right: 7rem;
-  top: 42rem;
+  top: 37.5rem;
 }
 .create-card__section-container {
   display: flex;
   flex-flow: column wrap;
+}
+.create-card__section-container--row {
+  flex-direction: row;
 }
 .create-card__label {
   font-size: 1.2rem;
@@ -37,6 +45,7 @@
   background-color: var(--background);
   border: none;
   font-weight: bold;
+  padding: .2rem .3rem;
 }
 .create-card__input--1 {
   width: 23.4rem;
